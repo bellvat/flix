@@ -5,7 +5,7 @@ body {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
 
-.navbar .navbar-dark {
+.navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
-.btn {
+.btn-success{
   border-radius: 0;
 }
 
@@ -61,8 +61,25 @@ h1, h2, h3, h4, h5, h6, .navbar {
   padding-right: 5%;
 }
 
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  padding: 20px;
+}
 
 
+
+.help-block {
+    color: #ff3333;
+    background-color: #FFEEEE;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+}
 
 
 
