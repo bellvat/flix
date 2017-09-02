@@ -46,8 +46,7 @@
     </button>
   </div>
 
-  <ul>
-  <div class="courses">
+  <ul class="col-12 mx-auto">
     <% current_course.sections.rank(:row_order).each do |section| %>
         <li data-update-url="<%= instructor_section_path(section) %>" class= "section-li" >
           <div class="header">
@@ -86,7 +85,6 @@
             <br class="clr" />
         </li>
     <% end %>
-  </div>
   </ul>
 
 
